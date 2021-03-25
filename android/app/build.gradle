@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.simon"
+        applicationId "com.memory"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

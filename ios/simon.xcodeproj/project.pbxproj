@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* simonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* simonTests.m */; };
+		00E356F31AD99517003FC87E /* memoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* memoryTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1744672D117F99D8DE4DA03F /* libPods-simon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F36BC058CD3C055A1F7E83C /* libPods-simon.a */; };
-		18BB3E41EFD06ADCAD7F5B3A /* libPods-simon-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEDDBFE7DAAFD722EE91819 /* libPods-simon-tvOS.a */; };
+		1744672D117F99D8DE4DA03F /* libPods-memory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F36BC058CD3C055A1F7E83C /* libPods-memory.a */; };
+		18BB3E41EFD06ADCAD7F5B3A /* libPods-memory-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEDDBFE7DAAFD722EE91819 /* libPods-memory-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* simonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* simonTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* memoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* memoryTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DD1BFA220F9694D06AEE5554 /* libPods-simon-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 638C207CD18834DEB1A1D7B4 /* libPods-simon-tvOSTests.a */; };
-		F55F68C6E493D83B8651ED54 /* libPods-simon-simonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62D31247BA0AAAF5DDEC54 /* libPods-simon-simonTests.a */; };
+		DD1BFA220F9694D06AEE5554 /* libPods-memory-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 638C207CD18834DEB1A1D7B4 /* libPods-memory-tvOSTests.a */; };
+		F55F68C6E493D83B8651ED54 /* libPods-memory-memoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62D31247BA0AAAF5DDEC54 /* libPods-memory-memoryTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = simon;
+			remoteInfo = memory;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "simon-tvOS";
+			remoteInfo = "memory-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* simonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* memoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* simonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simonTests.m; sourceTree = "<group>"; };
-		12B19B3F9F1F03BE47B9D141 /* Pods-simon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon.debug.xcconfig"; path = "Target Support Files/Pods-simon/Pods-simon.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = simon/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = simon/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = simon/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = simon/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = simon/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* simon-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simon-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* simon-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simon-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F62D31247BA0AAAF5DDEC54 /* libPods-simon-simonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simon-simonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		638C207CD18834DEB1A1D7B4 /* libPods-simon-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simon-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BEDDBFE7DAAFD722EE91819 /* libPods-simon-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simon-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CF8166CF1622A538D4E28BA /* Pods-simon-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-simon-tvOSTests/Pods-simon-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F36BC058CD3C055A1F7E83C /* libPods-simon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = simon/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82E684CB60362694885DFDA6 /* Pods-simon-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-tvOS.release.xcconfig"; path = "Target Support Files/Pods-simon-tvOS/Pods-simon-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9616C0EBAB0FC01AB28104EB /* Pods-simon-simonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-simonTests.debug.xcconfig"; path = "Target Support Files/Pods-simon-simonTests/Pods-simon-simonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0597CB9616730589E621116 /* Pods-simon-simonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-simonTests.release.xcconfig"; path = "Target Support Files/Pods-simon-simonTests/Pods-simon-simonTests.release.xcconfig"; sourceTree = "<group>"; };
-		B306C22DFCC06D9B032DA953 /* Pods-simon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon.release.xcconfig"; path = "Target Support Files/Pods-simon/Pods-simon.release.xcconfig"; sourceTree = "<group>"; };
-		E832026605FFBE838C2ACA29 /* Pods-simon-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-simon-tvOS/Pods-simon-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* memoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoryTests.m; sourceTree = "<group>"; };
+		12B19B3F9F1F03BE47B9D141 /* Pods-memory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory.debug.xcconfig"; path = "Target Support Files/Pods-memory/Pods-memory.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = memory/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = memory/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = memory/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = memory/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = memory/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* memory-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memory-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* memory-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memory-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F62D31247BA0AAAF5DDEC54 /* libPods-memory-memoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memory-memoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638C207CD18834DEB1A1D7B4 /* libPods-memory-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memory-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEDDBFE7DAAFD722EE91819 /* libPods-memory-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memory-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF8166CF1622A538D4E28BA /* Pods-memory-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-memory-tvOSTests/Pods-memory-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F36BC058CD3C055A1F7E83C /* libPods-memory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-memory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = memory/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E684CB60362694885DFDA6 /* Pods-memory-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-tvOS.release.xcconfig"; path = "Target Support Files/Pods-memory-tvOS/Pods-memory-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9616C0EBAB0FC01AB28104EB /* Pods-memory-memoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-memoryTests.debug.xcconfig"; path = "Target Support Files/Pods-memory-memoryTests/Pods-memory-memoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0597CB9616730589E621116 /* Pods-memory-memoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-memoryTests.release.xcconfig"; path = "Target Support Files/Pods-memory-memoryTests/Pods-memory-memoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		B306C22DFCC06D9B032DA953 /* Pods-memory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory.release.xcconfig"; path = "Target Support Files/Pods-memory/Pods-memory.release.xcconfig"; sourceTree = "<group>"; };
+		E832026605FFBE838C2ACA29 /* Pods-memory-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-memory-tvOS/Pods-memory-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F67BC608E6C2636D16BA70EA /* Pods-simon-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simon-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-simon-tvOSTests/Pods-simon-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F67BC608E6C2636D16BA70EA /* Pods-memory-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-memory-tvOSTests/Pods-memory-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55F68C6E493D83B8651ED54 /* libPods-simon-simonTests.a in Frameworks */,
+				F55F68C6E493D83B8651ED54 /* libPods-memory-memoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1744672D117F99D8DE4DA03F /* libPods-simon.a in Frameworks */,
+				1744672D117F99D8DE4DA03F /* libPods-memory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BB3E41EFD06ADCAD7F5B3A /* libPods-simon-tvOS.a in Frameworks */,
+				18BB3E41EFD06ADCAD7F5B3A /* libPods-memory-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1BFA220F9694D06AEE5554 /* libPods-simon-tvOSTests.a in Frameworks */,
+				DD1BFA220F9694D06AEE5554 /* libPods-memory-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* simonTests */ = {
+		00E356EF1AD99517003FC87E /* memoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* simonTests.m */,
+				00E356F21AD99517003FC87E /* memoryTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = simonTests;
+			path = memoryTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* simon */ = {
+		13B07FAE1A68108700A75B9A /* memory */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = simon;
+			name = memory;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7F36BC058CD3C055A1F7E83C /* libPods-simon.a */,
-				2F62D31247BA0AAAF5DDEC54 /* libPods-simon-simonTests.a */,
-				6BEDDBFE7DAAFD722EE91819 /* libPods-simon-tvOS.a */,
-				638C207CD18834DEB1A1D7B4 /* libPods-simon-tvOSTests.a */,
+				7F36BC058CD3C055A1F7E83C /* libPods-memory.a */,
+				2F62D31247BA0AAAF5DDEC54 /* libPods-memory-memoryTests.a */,
+				6BEDDBFE7DAAFD722EE91819 /* libPods-memory-tvOS.a */,
+				638C207CD18834DEB1A1D7B4 /* libPods-memory-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		5881CC3297DCBB2A3C3C5FA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12B19B3F9F1F03BE47B9D141 /* Pods-simon.debug.xcconfig */,
-				B306C22DFCC06D9B032DA953 /* Pods-simon.release.xcconfig */,
-				9616C0EBAB0FC01AB28104EB /* Pods-simon-simonTests.debug.xcconfig */,
-				B0597CB9616730589E621116 /* Pods-simon-simonTests.release.xcconfig */,
-				E832026605FFBE838C2ACA29 /* Pods-simon-tvOS.debug.xcconfig */,
-				82E684CB60362694885DFDA6 /* Pods-simon-tvOS.release.xcconfig */,
-				7CF8166CF1622A538D4E28BA /* Pods-simon-tvOSTests.debug.xcconfig */,
-				F67BC608E6C2636D16BA70EA /* Pods-simon-tvOSTests.release.xcconfig */,
+				12B19B3F9F1F03BE47B9D141 /* Pods-memory.debug.xcconfig */,
+				B306C22DFCC06D9B032DA953 /* Pods-memory.release.xcconfig */,
+				9616C0EBAB0FC01AB28104EB /* Pods-memory-memoryTests.debug.xcconfig */,
+				B0597CB9616730589E621116 /* Pods-memory-memoryTests.release.xcconfig */,
+				E832026605FFBE838C2ACA29 /* Pods-memory-tvOS.debug.xcconfig */,
+				82E684CB60362694885DFDA6 /* Pods-memory-tvOS.release.xcconfig */,
+				7CF8166CF1622A538D4E28BA /* Pods-memory-tvOSTests.debug.xcconfig */,
+				F67BC608E6C2636D16BA70EA /* Pods-memory-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* simon */,
+				13B07FAE1A68108700A75B9A /* memory */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* simonTests */,
+				00E356EF1AD99517003FC87E /* memoryTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5881CC3297DCBB2A3C3C5FA4 /* Pods */,
@@ -189,10 +189,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* simon.app */,
-				00E356EE1AD99517003FC87E /* simonTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* simon-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* simon-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* memory.app */,
+				00E356EE1AD99517003FC87E /* memoryTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* memory-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* memory-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* simonTests */ = {
+		00E356ED1AD99517003FC87E /* memoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "simonTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "memoryTests" */;
 			buildPhases = (
 				80C12579BBEA220AF8AADBEE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = simonTests;
-			productName = simonTests;
-			productReference = 00E356EE1AD99517003FC87E /* simonTests.xctest */;
+			name = memoryTests;
+			productName = memoryTests;
+			productReference = 00E356EE1AD99517003FC87E /* memoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* simon */ = {
+		13B07F861A680F5B00A75B9A /* memory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "simon" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "memory" */;
 			buildPhases = (
 				4AFFE1D879142E040B5565AC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = simon;
-			productName = simon;
-			productReference = 13B07F961A680F5B00A75B9A /* simon.app */;
+			name = memory;
+			productName = memory;
+			productReference = 13B07F961A680F5B00A75B9A /* memory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* simon-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* memory-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "simon-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memory-tvOS" */;
 			buildPhases = (
 				8AE82466E69539526D2F7CE8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = "simon-tvOS";
-			productName = "simon-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* simon-tvOS.app */;
+			name = "memory-tvOS";
+			productName = "memory-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* memory-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* simon-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* memory-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "simon-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memory-tvOSTests" */;
 			buildPhases = (
 				9173824B711724E650A4E419 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "simon-tvOSTests";
-			productName = "simon-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* simon-tvOSTests.xctest */;
+			name = "memory-tvOSTests";
+			productName = "memory-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* memory-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "simon" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "memory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* simon */,
-				00E356ED1AD99517003FC87E /* simonTests */,
-				2D02E47A1E0B4A5D006451C7 /* simon-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* simon-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* memory */,
+				00E356ED1AD99517003FC87E /* memoryTests */,
+				2D02E47A1E0B4A5D006451C7 /* memory-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* memory-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simon/Pods-simon-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memory/Pods-memory-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -392,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simon/Pods-simon-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memory/Pods-memory-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -415,7 +415,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simon-simonTests/Pods-simon-simonTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-memory-memoryTests/Pods-memory-memoryTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -424,7 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simon-simonTests/Pods-simon-simonTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memory-memoryTests/Pods-memory-memoryTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4AFFE1D879142E040B5565AC /* [CP] Check Pods Manifest.lock */ = {
@@ -442,7 +442,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simon-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memory-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -464,7 +464,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simon-simonTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memory-memoryTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simon-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memory-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simon-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-memory-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* simonTests.m in Sources */,
+				00E356F31AD99517003FC87E /* memoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* simonTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* memoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* simon */;
+			target = 13B07F861A680F5B00A75B9A /* memory */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* simon-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* memory-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9616C0EBAB0FC01AB28104EB /* Pods-simon-simonTests.debug.xcconfig */;
+			baseConfigurationReference = 9616C0EBAB0FC01AB28104EB /* Pods-memory-memoryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = simonTests/Info.plist;
+				INFOPLIST_FILE = memoryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simon.app/simon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memory.app/memory";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0597CB9616730589E621116 /* Pods-simon-simonTests.release.xcconfig */;
+			baseConfigurationReference = B0597CB9616730589E621116 /* Pods-memory-memoryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = simonTests/Info.plist;
+				INFOPLIST_FILE = memoryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,28 +645,28 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simon.app/simon";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memory.app/memory";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12B19B3F9F1F03BE47B9D141 /* Pods-simon.debug.xcconfig */;
+			baseConfigurationReference = 12B19B3F9F1F03BE47B9D141 /* Pods-memory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S95CFM59DW;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = simon/Info.plist;
+				INFOPLIST_FILE = memory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imakahn.simon;
-				PRODUCT_NAME = simon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imakahn.memory;
+				PRODUCT_NAME = memory;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -675,21 +675,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B306C22DFCC06D9B032DA953 /* Pods-simon.release.xcconfig */;
+			baseConfigurationReference = B306C22DFCC06D9B032DA953 /* Pods-memory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S95CFM59DW;
-				INFOPLIST_FILE = simon/Info.plist;
+				INFOPLIST_FILE = memory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imakahn.simon;
-				PRODUCT_NAME = simon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imakahn.memory;
+				PRODUCT_NAME = memory;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -697,7 +697,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E832026605FFBE838C2ACA29 /* Pods-simon-tvOS.debug.xcconfig */;
+			baseConfigurationReference = E832026605FFBE838C2ACA29 /* Pods-memory-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -708,14 +708,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "simon-tvOS/Info.plist";
+				INFOPLIST_FILE = "memory-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.simon-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memory-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -725,7 +725,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82E684CB60362694885DFDA6 /* Pods-simon-tvOS.release.xcconfig */;
+			baseConfigurationReference = 82E684CB60362694885DFDA6 /* Pods-memory-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -736,14 +736,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "simon-tvOS/Info.plist";
+				INFOPLIST_FILE = "memory-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.simon-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memory-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -753,7 +753,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF8166CF1622A538D4E28BA /* Pods-simon-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7CF8166CF1622A538D4E28BA /* Pods-memory-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -763,24 +763,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "simon-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "memory-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.simon-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memory-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simon-tvOS.app/simon-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memory-tvOS.app/memory-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F67BC608E6C2636D16BA70EA /* Pods-simon-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F67BC608E6C2636D16BA70EA /* Pods-memory-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -790,17 +790,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "simon-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "memory-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.simon-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.memory-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simon-tvOS.app/simon-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memory-tvOS.app/memory-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "simonTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "memoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "simon" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "simon-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memory-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "simon-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "memory-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "simon" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
